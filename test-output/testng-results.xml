@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T13:02:08 EDT" name="Suite" finished-at="2023-04-18T13:02:39 EDT" duration-ms="30309">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T13:02:08 EDT" name="Android_Test" finished-at="2023-04-18T13:02:39 EDT" duration-ms="30309">
+      <class name="tc.SelectFavoriteLeagueAndTeam">
+        <test-method is-config="true" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:tc.SelectFavoriteLeagueAndTeam@5fb759d6]" started-at="2023-04-18T13:02:06 EDT" name="setupBeforeSuite" finished-at="2023-04-18T13:02:08 EDT" duration-ms="2646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@217bf99e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method is-config="true" signature="setupBeforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tc.SelectFavoriteLeagueAndTeam@5fb759d6]" started-at="2023-04-18T13:02:08 EDT" name="setupBeforeTest" finished-at="2023-04-18T13:02:38 EDT" duration-ms="30138" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[{"value":{"error":"unknown method","message":"Not implemented yet for pageLoad.","stacktrace":"NotImplementedError: Not implemented yet for pageLoad.\n    at AndroidUiautomator2Driver.pageLoadTimeoutW3C (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:83:9)\n    at AndroidUiautomator2Driver.timeouts (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:40:16)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)"}}
+Command duration or timeout: 38 milliseconds
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f818982e-2bfd-41a4-a521-e7587e9f78d2, setTimeout {pageLoad=60000}]
+Capabilities {appium:appActivity: com.fivemobile.thescore.ui...., appium:appPackage: com.fivemobile.thescore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.fivemobile.thescore.ui...., appPackage: com.fivemobile.thescore, automationName: UIAutomator2, deviceName: Pixel3, platformName: android, platformVersion: 9.0}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f818982e-2bfd-41a4-a521-e7587e9f78d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: {"value":{"error":"unknown method","message":"Not implemented yet for pageLoad.","stacktrace":"NotImplementedError: Not implemented yet for pageLoad.\n    at AndroidUiautomator2Driver.pageLoadTimeoutW3C (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:83:9)\n    at AndroidUiautomator2Driver.timeouts (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:40:16)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)"}}
+Command duration or timeout: 38 milliseconds
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f818982e-2bfd-41a4-a521-e7587e9f78d2, setTimeout {pageLoad=60000}]
+Capabilities {appium:appActivity: com.fivemobile.thescore.ui...., appium:appPackage: com.fivemobile.thescore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.fivemobile.thescore.ui...., appPackage: com.fivemobile.thescore, automationName: UIAutomator2, deviceName: Pixel3, platformName: android, platformVersion: 9.0}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f818982e-2bfd-41a4-a521-e7587e9f78d2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:898)
+at base.BaseTestCase.createAndroidDriver(BaseTestCase.java:88)
+at base.BaseTestCase.setupBeforeTest(BaseTestCase.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method signature="addFavoriteLeagueAndTeam()[pri:0, instance:tc.SelectFavoriteLeagueAndTeam@5fb759d6]" started-at="2023-04-18T13:02:39 EDT" name="addFavoriteLeagueAndTeam" finished-at="2023-04-18T13:02:39 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[{"value":{"error":"unknown method","message":"Not implemented yet for pageLoad.","stacktrace":"NotImplementedError: Not implemented yet for pageLoad.\n    at AndroidUiautomator2Driver.pageLoadTimeoutW3C (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:83:9)\n    at AndroidUiautomator2Driver.timeouts (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:40:16)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)"}}
+Command duration or timeout: 38 milliseconds
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f818982e-2bfd-41a4-a521-e7587e9f78d2, setTimeout {pageLoad=60000}]
+Capabilities {appium:appActivity: com.fivemobile.thescore.ui...., appium:appPackage: com.fivemobile.thescore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.fivemobile.thescore.ui...., appPackage: com.fivemobile.thescore, automationName: UIAutomator2, deviceName: Pixel3, platformName: android, platformVersion: 9.0}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f818982e-2bfd-41a4-a521-e7587e9f78d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: {"value":{"error":"unknown method","message":"Not implemented yet for pageLoad.","stacktrace":"NotImplementedError: Not implemented yet for pageLoad.\n    at AndroidUiautomator2Driver.pageLoadTimeoutW3C (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:83:9)\n    at AndroidUiautomator2Driver.timeouts (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:40:16)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)"}}
+Command duration or timeout: 38 milliseconds
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f818982e-2bfd-41a4-a521-e7587e9f78d2, setTimeout {pageLoad=60000}]
+Capabilities {appium:appActivity: com.fivemobile.thescore.ui...., appium:appPackage: com.fivemobile.thescore, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.fivemobile.thescore.ui...., appPackage: com.fivemobile.thescore, automationName: UIAutomator2, deviceName: Pixel3, platformName: android, platformVersion: 9.0}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2160, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 9, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f818982e-2bfd-41a4-a521-e7587e9f78d2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:578)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:898)
+at base.BaseTestCase.createAndroidDriver(BaseTestCase.java:88)
+at base.BaseTestCase.setupBeforeTest(BaseTestCase.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFavoriteLeagueAndTeam -->
+        <test-method is-config="true" signature="tearDownAfterTest()[pri:0, instance:tc.SelectFavoriteLeagueAndTeam@5fb759d6]" started-at="2023-04-18T13:02:39 EDT" name="tearDownAfterTest" finished-at="2023-04-18T13:02:39 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTest -->
+        <test-method is-config="true" signature="tearDownAterSuite()[pri:0, instance:tc.SelectFavoriteLeagueAndTeam@5fb759d6]" started-at="2023-04-18T13:02:39 EDT" name="tearDownAterSuite" finished-at="2023-04-18T13:02:39 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAterSuite -->
+      </class> <!-- tc.SelectFavoriteLeagueAndTeam -->
+    </test> <!-- Android_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
